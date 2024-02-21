@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import axios from 'axios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL = "app-112611fd2708ca64478eac4c078e1da9-chart.50010-0c90e0.svc.cluster.local"
+axios.defaults.baseURL = "http://app-112611fd2708ca64478eac4c078e1da9-chart.50010-0c90e0.svc.cluster.local"
 root.render(
   <React.StrictMode>
     <App />
